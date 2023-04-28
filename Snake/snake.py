@@ -27,7 +27,7 @@ head.speed(0)
 #shape
 head.shape("circle")
 #head color
-head.color("PaleGoldenrod")
+head.color("OliveDrab4")
 #no dejar rastro de animacion
 head.penup()
 
@@ -38,8 +38,8 @@ head.goto(0,0)
 #food config
 food=turtle.Turtle()
 food.speed(0)
-food.shape("triangle")
-food.color("Orange")
+food.shape("circle")
+food.color("Red3")
 food.penup()
 food.goto(0,100)
 food.direction = "Stop"
@@ -120,7 +120,7 @@ while True:
         new_segment = turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("circle")
-        new_segment.color("green4")
+        new_segment.color("OliveDrab3")
         new_segment.penup()
         body_segments.append(new_segment)
 
